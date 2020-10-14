@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body {
+  background-color: hsl(225, 9%, 10%);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+header{
+  margin-top: 0px;
+  position: fixed;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  padding-top: 0px;
+  background-color: hsl(225, 9%, 10%);
+}
+
+#header-img {
+  grid-column: 1;
+  width: 100%;
+  align-self: center;
+  margin-left: 10px;
+}
+#title {
+  grid-column: 2;
+  align-celf: center;
+  justify-self: center;
+  font-weight: bold;
+}
+#nav-bar {
+  grid-column: 3;
+  align-self: center;
+  justify-self: right;
+  display: flex;
+  margin-right: 5px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+#header a {
+  color: white;
+  float: left;
+  padding: 12px;
+}
+
+#pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#pic{
+  margin-top: 100px;
+}
+
+#main{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  padding-top: 3px;
+  
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 75%;
+  overflow: hidden;
+  align-self: center;
+}
+#stats{
+  margin-left: 40px;
+}
+
+.feats h2{
+  font-size: 40px;
+}
+
+#stats h1{
+  margin-left: -20px;
+}
+.navlink {
+  font-size: 40px;
+  color: rgb(169, 5, 51);
+  margin-left: 20px; 
+}
+
+@media {
+  #video{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  display: block;
+  width: 896px;
+  height: 504px;
+  }
+}
+
+#artists {
+  background-color: hsl(225, 9%, 10%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+#artistrow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  border: 0.5px solid rgb(169, 5, 51);
+}
+
+#row2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  border: 0.5px solid rgb(169, 5, 51);
+}
+
+.cols {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  border: 0.5px solid rgb(169, 5, 51);
+}
+
+.artistpage {
+  align-celf: center;
+  justify-self: center;
+  text-align: center;
+}
+
+.artistname {
+ font-size: 30px;
+ font-weight: bold;
+ color: white;
+}
+
+.artistpic {
+  width: 90%;
+  height: auto;
+}
+
+#artists:hover, artistname:hover{
+  background-color: rgb(169, 5, 51);
+  color: white
+}
+
+
+
+#form{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+  width: 20%;
+}
+
+#submit{
+  text-transform: uppercase;
+  background-color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 25%;
+}
+
+#submit:hover{
+  background-color: rgb(169, 5, 51);
+  animation-duration: infinite;
+}
+
+footer p{
+  color: rgb(169, 5, 51);
+}
